@@ -1,15 +1,16 @@
 package webShop;
 
-import java.util.List;
 
 public class PageController {
 
-	private List<Article> stockList;
-	private List<Article> shoppingCart;
 	private PageView view;
+	private ShoppingCart shoppingCart;
+	private Stock stock;
 	
 	public PageController() {
 		view = new PageView();
+		stock = new Stock();
+		shoppingCart = new ShoppingCart();
 	}
 	
 	public Article getArticle() {
@@ -17,6 +18,6 @@ public class PageController {
 	}
 	
 	public void updateView() {
-		view.updateView();
+		view.updateView(shoppingCart.getShoppingCart(), stock.getStockList());
 	}
 }

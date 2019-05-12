@@ -1,17 +1,22 @@
 package webShop;
+import java.util.ArrayList;
 import java.util.List;
 
 public class ShoppingCart {
-	private List<Article> shoppingcart;
+	private List<Article> shoppingCart;
 	
 	public ShoppingCart() {
-		// TODO Auto-generated constructor stub
+		shoppingCart = new ArrayList<>();
 	}
 
 	/**
-	 * @return the shoppingcart
+	 * @return the shoppingCart
 	 */
-	List<Article> getShoppingcart() {
-		return shoppingcart;
+	List<Article> getShoppingCart() {
+		return shoppingCart;
+	}
+
+	void addToShoppingCart(Article article) {
+		shoppingCart.add(article);
 	}
 }
