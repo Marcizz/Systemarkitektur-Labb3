@@ -19,4 +19,8 @@ public class ShoppingCart {
 	void addToShoppingCart(Article article) {
 		shoppingCart.add(article);
 	}
+	
+	public void purchaseCart() {
+		
+	}
 }
