@@ -1,3 +1,4 @@
+package webShop;
 
 public class PageView {
 

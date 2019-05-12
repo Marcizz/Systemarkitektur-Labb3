@@ -1,13 +1,15 @@
+package webShop;
+
 import java.util.List;
 
 public class PageController {
 
-	private List<Article> articleList;
-	private List<Article> shoppingcart;
+	private List<Article> stockList;
+	private List<Article> shoppingCart;
 	private PageView view;
 	
 	public PageController() {
-		// TODO Auto-generated constructor stub
+		view = new PageView();
 	}
 	
 	public Article getArticle() {
@@ -15,6 +17,6 @@ public class PageController {
 	}
 	
 	public void updateView() {
-		
+		view.updateView();
 	}
 }
