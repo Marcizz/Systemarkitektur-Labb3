@@ -1,10 +1,10 @@
 package webShop;
 import java.util.List;
 
-public class Shoppingcart {
+public class ShoppingCart {
 	private List<Article> shoppingcart;
 	
-	public Shoppingcart() {
+	public ShoppingCart() {
 		// TODO Auto-generated constructor stub
 	}
 
