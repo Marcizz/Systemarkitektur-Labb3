@@ -3,7 +3,7 @@ package webShop;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Stock implements Article, StockImport {
+public class Stock implements StockImport {
 	private StockImport si;
 	private List<Article> stockList = new ArrayList<>();
 
@@ -24,24 +24,6 @@ public class Stock implements Article, StockImport {
 	 */
 	List<Article> getStockList() {
 		return stockList;
-	}	
-
-	@Override
-	public String getName() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public String getInfo() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public int getPrice() {
-		// TODO Auto-generated method stub
-		return 0;
 	}
 
 	@Override
