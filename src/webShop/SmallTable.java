@@ -15,4 +15,10 @@ public class SmallTable extends Table{
     public String getInfo() {
         return this.info;
     }
+
+	@Override
+	public int getSize() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }
