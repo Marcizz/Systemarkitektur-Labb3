@@ -455,7 +455,8 @@ ShoppingCart
 
 --
 + getShoppingCart() : List&lt;Article&gt;
-+ addToShoppingCart(Article article)</panel_attributes>
++ addToShoppingCart(Article article) : void
++ purchaseCart() : void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
