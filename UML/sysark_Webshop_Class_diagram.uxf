@@ -251,7 +251,8 @@ SmallCouchImport
 --
 
 --
-+getStock() : List&lt;Article&gt;</panel_attributes>
++getStock() : List&lt;Article&gt;
++updateStock() : void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -268,7 +269,8 @@ BigCouchImport
 --
 
 --
-+getStock() : List&lt;Article&gt;</panel_attributes>
++getStock() : List&lt;Article&gt;
++updateStock() : void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -285,7 +287,8 @@ SmallTableImport
 --
 
 --
-+getStock() : List&lt;Article&gt;</panel_attributes>
++getStock() : List&lt;Article&gt;
++updateStock() : void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -302,7 +305,8 @@ BigTableImport
 --
 
 --
-+getStock() : List&lt;Article&gt;</panel_attributes>
++getStock() : List&lt;Article&gt;
++updateStock() : void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
