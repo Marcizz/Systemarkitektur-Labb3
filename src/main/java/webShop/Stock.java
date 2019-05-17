@@ -1,5 +1,10 @@
 package webShop;
 
+import webShop.stock.StockImport;
+import webShop.stock.BigTableImport;
+import webShop.stock.SmallCouchImport;
+import webShop.stock.SmallTableImport;
+import webShop.stock.BigCouchImport;
 import java.util.ArrayList;
 import java.util.List;
 

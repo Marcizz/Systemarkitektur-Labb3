@@ -1,6 +1,7 @@
-package webShop;
+package webShop.stock;
 
 import java.util.List;
+import webShop.Article;
 
 public class BigTableImport implements StockImport {
     @Override

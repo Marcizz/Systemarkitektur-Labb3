@@ -1,4 +1,4 @@
-package webShop;
+package webShop.article;
 
 public class SmallCouch extends Couch {
 
