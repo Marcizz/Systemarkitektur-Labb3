@@ -189,3 +189,9 @@ nbdist/
 .nb-gradle/
 
 # End of https://www.gitignore.io/api/java,eclipse,netbeans,intellij
+nbproject/genfiles.properties
+*.mf
+build.xml
+nbproject/build-impl.xml
+nbproject/project.properties
+nbproject/project.xml
